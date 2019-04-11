@@ -39,18 +39,6 @@
  *
  * 在构建后会只剩下
  *
- *     cc.log('release');
- *
- * <br>
- * 如需判断脚本是否运行于指定平台，可以用如下表达式：
- *
- *     {
- *         "编辑器":  CC_EDITOR,
- *         "编辑器 或 预览":  CC_DEV,
- *         "编辑器 或 预览 或 构建调试":  CC_DEBUG,
- *         "网页预览":  CC_PREVIEW && !CC_JSB,
- *         "模拟器预览":  CC_PREVIEW && CC_JSB,
- *         "构建调试":  CC_BUILD && CC_DEBUG,
  *         "构建发行":  CC_BUILD && !CC_DEBUG,
  *     }
  *
